@@ -11,6 +11,48 @@
 <p>Tel: +55(33)98762-0382</p>
 <p>Email: @gaelprofissional2022@gmail.com</p>
 <p>Rua São Borja, 497, Nova Vista. BH.</p>
+<style>
+    
+    
+
+    /* Estiliza a imagem */
+
+    .foto {
+        width: 200px;  /* Ajuste o tamanho da imagem */
+        height: 200px;
+        border-radius: 50%;  /* Deixa a imagem redonda */
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        opacity: 0;  /* Começa invisível */
+        transition: opacity 2s ease-in-out;  /* Faz a transição suave */
+    }
+    .finger {
+        
+            font-size: 50px;
+            position: fixed;
+            animation: apontar 1s infinite alternate ease-in-out;
+            display: inline-block;
+            bottom: 14%;
+            right: 3%;
+        }   
+
+        /* Animação do dedo */
+        @keyframes apontar {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(10px); }
+        }
+</style>
+
+<img src="./perfil github.jpg" alt="Minha Foto" class="foto" id="minhaFoto">
+
+<div class="finger">👇</div>
+    <script>
+        window.onload = function() {
+            let foto = document.getElementById("minhaFoto");
+            foto.style.opacity = "1";  // Faz a imagem aparecer gradualmente
+        };
+    </script>
 <a href="https://api.whatsapp.com/send?phone=5533987620382&text=Olá, vi seu portfólio e gostaria de conversar!" 
    target="_blank" class="whatsapp-float">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
