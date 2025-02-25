@@ -7,3 +7,16 @@ h1{
 p{
     color: aliceblue;
 }
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25d366;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.whatsapp-float img {
+    width: 50px;
+}
