@@ -6,15 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifófio de Gabriel</title>
     <link rel="stylesheet" href="./public/css do index.css">
-    
+
 </head>
 <body>
+    <style>
+        
+            .foto {
+        width: 300px;  /* Ajuste o tamanho da imagem */
+        height: 300px;
+        border-radius: 1%;  /* Deixa a imagem redonda */
+        position: absolute;
+        top: 300px;
+        right: 60%;
+        opacity: 0;  /* Começa invisível */
+        transition: opacity 2s ease-in-out;  /* Faz a transição suave */
+    }
+    <p style="margin-bottom: 20px;">Este é um parágrafo com espaço abaixo.</p>
+    
+    </style>
+
+
+
     <h1>Meu portifólio</h1>
     <h2 style="color: rgb(255, 255, 255);">Eu sou um desenvolvedor em desenvolvimento. </h2>
-    <h3 style="color: aliceblue;">O objetivo aqui é crescer profissionalmente a cada dia!</h3> <hr>
+    <h3 style="color: aliceblue;">O objetivo aqui é crescer profissionalmente a cada dia!</h3>
+    <p></p>
+        <img src="perfil github.jpg" alt="Minha Foto" class="foto" id="minhaFoto">
+        <script>
+        window.onload = function() {
+            let foto = document.getElementById("minhaFoto");
+            foto.style.opacity = "1";  // Faz a imagem aparecer gradualmente
+        };
+    </script><hr>
     
-    <img width="300"
-    src="./perfil github.jpg" alt="Foto usando óculos">    <hr>
+   <hr>
 
     <a style="color: aliceblue;" href="./public/meus dados.html">Clique aqui para ver mais  informações minhas.</a>. 
 
