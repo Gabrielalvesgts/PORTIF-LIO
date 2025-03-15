@@ -7,3 +7,24 @@ h1 {
 .cor_branca{
     color: white;
 }
+.box_green{
+    border:1px solid black;
+    padding: 1px;
+    margin: 2px;
+    background-color: rgb(34, 79, 9);
+    color: white;
+    width: 600px;
+
+}
+
+.texto {
+    position: relative; 
+    height: 20px;   
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 52px;
+    font-size: 15px;
+    width: 330px;
+    
+}

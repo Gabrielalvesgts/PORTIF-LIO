@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto no Canto Inferior Direito</title>
+    <style>
+        .container {
+            position: relative;  /* Define como referência */
+            width: 300px;
+            height: 200px;
+            background-color: lightblue;
+        }
+
+        .texto {
+            position: fixed;
+            bottom: 10px;  /* Distância do fundo */
+            right: 10px;   /* Distância da direita */
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p class="texto">Texto no canto inferior direito</p>
+    </div>
+
+</body>
+</html>
