@@ -14,7 +14,7 @@ html{
     padding: 1px;
     opacity: 3;
     transition: opacity 13s ease-in-out;
-    
+    font-size: 10px;
 }
 
 .paragrafonomeio{
